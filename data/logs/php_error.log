@@ -1,0 +1,200 @@
+[06-Jul-2018 21:09:48 UTC] PHP Fatal error:  Uncaught ErrorException: include(/var/www/html/vendor/composer/../../app/Exceptions/Handler.php): failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /var/www/html/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/var/ww...', '/var/www/html/v...', 444, Array)
+#1 /var/www/html/vendor/composer/ClassLoader.php(444): include()
+#2 /var/www/html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/var/www/html/v...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /var/www/html/ve in /var/www/html/vendor/composer/ClassLoader.php on line 444
+[06-Jul-2018 21:09:48 UTC] PHP Fatal error:  Uncaught ErrorException: include(/var/www/html/vendor/composer/../../app/Exceptions/Handler.php): failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /var/www/html/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/var/ww...', '/var/www/html/v...', 444, Array)
+#1 /var/www/html/vendor/composer/ClassLoader.php(444): include()
+#2 /var/www/html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/var/www/html/v...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /var/www/html/ve in /var/www/html/vendor/composer/ClassLoader.php on line 444
+[06-Jul-2018 21:11:29 UTC] PHP Fatal error:  Uncaught ErrorException: include(/var/www/html/vendor/composer/../../app/Exceptions/Handler.php): failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /var/www/html/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/var/ww...', '/var/www/html/v...', 444, Array)
+#1 /var/www/html/vendor/composer/ClassLoader.php(444): include()
+#2 /var/www/html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/var/www/html/v...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /var/www/html/ve in /var/www/html/vendor/composer/ClassLoader.php on line 444
+[06-Jul-2018 21:11:29 UTC] PHP Fatal error:  Uncaught ErrorException: include(/var/www/html/vendor/composer/../../app/Exceptions/Handler.php): failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /var/www/html/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/var/ww...', '/var/www/html/v...', 444, Array)
+#1 /var/www/html/vendor/composer/ClassLoader.php(444): include()
+#2 /var/www/html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/var/www/html/v...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /var/www/html/ve in /var/www/html/vendor/composer/ClassLoader.php on line 444
+[06-Jul-2018 21:12:11 UTC] PHP Fatal error:  Uncaught ErrorException: include(/var/www/html/vendor/composer/../../app/Exceptions/Handler.php): failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /var/www/html/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/var/ww...', '/var/www/html/v...', 444, Array)
+#1 /var/www/html/vendor/composer/ClassLoader.php(444): include()
+#2 /var/www/html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/var/www/html/v...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /var/www/html/ve in /var/www/html/vendor/composer/ClassLoader.php on line 444
+[06-Jul-2018 21:12:11 UTC] PHP Fatal error:  Uncaught ErrorException: include(/var/www/html/vendor/composer/../../app/Exceptions/Handler.php): failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /var/www/html/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/var/ww...', '/var/www/html/v...', 444, Array)
+#1 /var/www/html/vendor/composer/ClassLoader.php(444): include()
+#2 /var/www/html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/var/www/html/v...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /var/www/html/ve in /var/www/html/vendor/composer/ClassLoader.php on line 444
+[06-Jul-2018 21:14:08 UTC] PHP Fatal error:  Uncaught ErrorException: include(/var/www/html/vendor/composer/../../app/Exceptions/Handler.php): failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /var/www/html/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/var/ww...', '/var/www/html/v...', 444, Array)
+#1 /var/www/html/vendor/composer/ClassLoader.php(444): include()
+#2 /var/www/html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/var/www/html/v...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /var/www/html/ve in /var/www/html/vendor/composer/ClassLoader.php on line 444
+[06-Jul-2018 21:14:08 UTC] PHP Fatal error:  Uncaught ErrorException: include(/var/www/html/vendor/composer/../../app/Exceptions/Handler.php): failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /var/www/html/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/var/ww...', '/var/www/html/v...', 444, Array)
+#1 /var/www/html/vendor/composer/ClassLoader.php(444): include()
+#2 /var/www/html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/var/www/html/v...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /var/www/html/ve in /var/www/html/vendor/composer/ClassLoader.php on line 444
+[06-Jul-2018 21:14:10 UTC] PHP Fatal error:  Uncaught ErrorException: include(/var/www/html/vendor/composer/../../app/Exceptions/Handler.php): failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /var/www/html/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/var/ww...', '/var/www/html/v...', 444, Array)
+#1 /var/www/html/vendor/composer/ClassLoader.php(444): include()
+#2 /var/www/html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/var/www/html/v...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /var/www/html/ve in /var/www/html/vendor/composer/ClassLoader.php on line 444
+[06-Jul-2018 21:14:10 UTC] PHP Fatal error:  Uncaught ErrorException: include(/var/www/html/vendor/composer/../../app/Exceptions/Handler.php): failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /var/www/html/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/var/ww...', '/var/www/html/v...', 444, Array)
+#1 /var/www/html/vendor/composer/ClassLoader.php(444): include()
+#2 /var/www/html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/var/www/html/v...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /var/www/html/ve in /var/www/html/vendor/composer/ClassLoader.php on line 444
+[06-Jul-2018 21:14:11 UTC] PHP Fatal error:  Uncaught ErrorException: include(/var/www/html/vendor/composer/../../app/Exceptions/Handler.php): failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /var/www/html/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/var/ww...', '/var/www/html/v...', 444, Array)
+#1 /var/www/html/vendor/composer/ClassLoader.php(444): include()
+#2 /var/www/html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/var/www/html/v...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /var/www/html/ve in /var/www/html/vendor/composer/ClassLoader.php on line 444
+[06-Jul-2018 21:14:11 UTC] PHP Fatal error:  Uncaught ErrorException: include(/var/www/html/vendor/composer/../../app/Exceptions/Handler.php): failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /var/www/html/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/var/ww...', '/var/www/html/v...', 444, Array)
+#1 /var/www/html/vendor/composer/ClassLoader.php(444): include()
+#2 /var/www/html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/var/www/html/v...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /var/www/html/ve in /var/www/html/vendor/composer/ClassLoader.php on line 444
+[06-Jul-2018 21:15:22 UTC] PHP Warning:  include(/var/www/html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 444
+[06-Jul-2018 21:15:22 UTC] PHP Stack trace:
+[06-Jul-2018 21:15:22 UTC] PHP   1. {main}() /var/www/html/public/index.php:0
+[06-Jul-2018 21:15:22 UTC] PHP   2. Illuminate\Foundation\Application->make() /var/www/html/public/index.php:52
+[06-Jul-2018 21:15:22 UTC] PHP   3. Illuminate\Foundation\Application->make() /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:732
+[06-Jul-2018 21:15:22 UTC] PHP   4. Illuminate\Foundation\Application->resolve() /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:586
+[06-Jul-2018 21:15:22 UTC] PHP   5. Illuminate\Foundation\Application->build() /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:631
+[06-Jul-2018 21:15:22 UTC] PHP   6. Illuminate\Foundation\Application->Illuminate\Container\{closure}() /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:749
+[06-Jul-2018 21:15:22 UTC] PHP   7. Illuminate\Foundation\Application->make() /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:256
+[06-Jul-2018 21:15:22 UTC] PHP   8. Illuminate\Foundation\Application->make() /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:732
+[06-Jul-2018 21:15:22 UTC] PHP   9. Illuminate\Foundation\Application->resolve() /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:586
+[06-Jul-2018 21:15:22 UTC] PHP  10. Illuminate\Foundation\Application->build() /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:631
+[06-Jul-2018 21:15:22 UTC] PHP  11. ReflectionClass->__construct() /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+[06-Jul-2018 21:15:22 UTC] PHP  12. spl_autoload_call() /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+[06-Jul-2018 21:15:22 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+[06-Jul-2018 21:15:22 UTC] PHP  14. Composer\Autoload\includeFile() /var/www/html/vendor/composer/ClassLoader.php:322
+[06-Jul-2018 21:15:22 UTC] PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/usr/local/lib/php') in /var/www/html/vendor/composer/ClassLoader.php on line 444
+[06-Jul-2018 21:15:22 UTC] PHP Stack trace:
+[06-Jul-2018 21:15:22 UTC] PHP   1. {main}() /var/www/html/public/index.php:0
+[06-Jul-2018 21:15:22 UTC] PHP   2. Illuminate\Foundation\Application->make() /var/www/html/public/index.php:52
+[06-Jul-2018 21:15:22 UTC] PHP   3. Illuminate\Foundation\Application->make() /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:732
+[06-Jul-2018 21:15:22 UTC] PHP   4. Illuminate\Foundation\Application->resolve() /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:586
+[06-Jul-2018 21:15:22 UTC] PHP   5. Illuminate\Foundation\Application->build() /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:631
+[06-Jul-2018 21:15:22 UTC] PHP   6. Illuminate\Foundation\Application->Illuminate\Container\{closure}() /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:749
+[06-Jul-2018 21:15:22 UTC] PHP   7. Illuminate\Foundation\Application->make() /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:256
+[06-Jul-2018 21:15:22 UTC] PHP   8. Illuminate\Foundation\Application->make() /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:732
+[06-Jul-2018 21:15:22 UTC] PHP   9. Illuminate\Foundation\Application->resolve() /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:586
+[06-Jul-2018 21:15:22 UTC] PHP  10. Illuminate\Foundation\Application->build() /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:631
+[06-Jul-2018 21:15:22 UTC] PHP  11. ReflectionClass->__construct() /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+[06-Jul-2018 21:15:22 UTC] PHP  12. spl_autoload_call() /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+[06-Jul-2018 21:15:22 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+[06-Jul-2018 21:15:22 UTC] PHP  14. Composer\Autoload\includeFile() /var/www/html/vendor/composer/ClassLoader.php:322
+[06-Jul-2018 21:15:22 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Con in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[06-Jul-2018 21:16:42 UTC] PHP Warning:  Uncaught ErrorException: require(/var/www/html/routes/console.php): failed to open stream: No such file or directory in /var/www/html/app/Console/Kernel.php:40
+Stack trace:
+#0 /var/www/html/app/Console/Kernel.php(40): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/var/ww...', '/var/www/html/a...', 40, Array)
+#1 /var/www/html/app/Console/Kernel.php(40): require()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(302): App\Console\Kernel->commands()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(119): Illuminate\Foundation\Console\Kernel->bootstrap()
+#4 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main}
+  thrown in /var/www/html/app/Console/Kernel.php on line 40
+[06-Jul-2018 21:16:42 UTC] PHP Stack trace:
+[06-Jul-2018 21:16:42 UTC] PHP   1. {main}() /var/www/html/artisan:0
+[06-Jul-2018 21:16:42 UTC] PHP   2. App\Console\Kernel->handle() /var/www/html/artisan:37
+[06-Jul-2018 21:16:42 UTC] PHP   3. App\Console\Kernel->bootstrap() /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:119
+[06-Jul-2018 21:16:42 UTC] PHP   4. App\Console\Kernel->commands() /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:302
+[06-Jul-2018 21:16:42 UTC] PHP Fatal error:  App\Console\Kernel::commands(): Failed opening required '/var/www/html/routes/console.php' (include_path='.:/usr/local/lib/php') in /var/www/html/app/Console/Kernel.php on line 40
+[06-Jul-2018 21:16:42 UTC] PHP Stack trace:
+[06-Jul-2018 21:16:42 UTC] PHP   1. {main}() /var/www/html/artisan:0
+[06-Jul-2018 21:16:42 UTC] PHP   2. App\Console\Kernel->handle() /var/www/html/artisan:37
+[06-Jul-2018 21:16:42 UTC] PHP   3. App\Console\Kernel->bootstrap() /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:119
+[06-Jul-2018 21:16:42 UTC] PHP   4. App\Console\Kernel->commands() /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:302
+[06-Jul-2018 21:21:06 UTC] PHP Warning:  Uncaught ErrorException: require(/var/www/html/routes/console.php): failed to open stream: No such file or directory in /var/www/html/app/Console/Kernel.php:40
+Stack trace:
+#0 /var/www/html/app/Console/Kernel.php(40): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/var/ww...', '/var/www/html/a...', 40, Array)
+#1 /var/www/html/app/Console/Kernel.php(40): require()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(302): App\Console\Kernel->commands()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(119): Illuminate\Foundation\Console\Kernel->bootstrap()
+#4 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main}
+  thrown in /var/www/html/app/Console/Kernel.php on line 40
+[06-Jul-2018 21:21:06 UTC] PHP Stack trace:
+[06-Jul-2018 21:21:06 UTC] PHP   1. {main}() /var/www/html/artisan:0
+[06-Jul-2018 21:21:06 UTC] PHP   2. App\Console\Kernel->handle() /var/www/html/artisan:37
+[06-Jul-2018 21:21:06 UTC] PHP   3. App\Console\Kernel->bootstrap() /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:119
+[06-Jul-2018 21:21:06 UTC] PHP   4. App\Console\Kernel->commands() /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:302
+[06-Jul-2018 21:21:06 UTC] PHP Fatal error:  App\Console\Kernel::commands(): Failed opening required '/var/www/html/routes/console.php' (include_path='.:/usr/local/lib/php') in /var/www/html/app/Console/Kernel.php on line 40
+[06-Jul-2018 21:21:06 UTC] PHP Stack trace:
+[06-Jul-2018 21:21:06 UTC] PHP   1. {main}() /var/www/html/artisan:0
+[06-Jul-2018 21:21:06 UTC] PHP   2. App\Console\Kernel->handle() /var/www/html/artisan:37
+[06-Jul-2018 21:21:06 UTC] PHP   3. App\Console\Kernel->bootstrap() /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:119
+[06-Jul-2018 21:21:06 UTC] PHP   4. App\Console\Kernel->commands() /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:302
