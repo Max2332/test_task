@@ -13,10 +13,11 @@ class AddLogsTable extends Migration
      */
     public function up()
     {
-        Schema::create('fragments', function (Blueprint $table) {
-           $table->increments('id');
-           $table->string('fragment')->unique();
-           $table->timestamps();
+        Schema::create('geo_searches', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('fragment')->unique();
+            $table->jsonb('response');
+            $table->timestamps();
         });
     }
 
@@ -27,6 +28,6 @@ class AddLogsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('fragments');
+        Schema::drop('geo_searches');
     }
 }

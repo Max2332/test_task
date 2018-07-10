@@ -1,1 +1,2 @@
 2018/07/06 21:41:00 [error] 10#10: *20 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "localhost:8085"
+2018/07/08 13:06:09 [error] 10#10: *82 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: , request: "GET /search?fragment=%D0%B7%D0%B5%D0%BB%D0%B5 HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "localhost:8085"

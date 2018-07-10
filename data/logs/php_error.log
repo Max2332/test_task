@@ -198,3 +198,115 @@ Stack trace:
 [06-Jul-2018 21:21:06 UTC] PHP   2. App\Console\Kernel->handle() /var/www/html/artisan:37
 [06-Jul-2018 21:21:06 UTC] PHP   3. App\Console\Kernel->bootstrap() /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:119
 [06-Jul-2018 21:21:06 UTC] PHP   4. App\Console\Kernel->commands() /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:302
+[08-Jul-2018 14:24:31 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: The HTTP status code "0" is not valid. in /var/www/html/vendor/symfony/http-foundation/Response.php:453
+Stack trace:
+#0 /var/www/html/vendor/symfony/http-foundation/Response.php(202): Symfony\Component\HttpFoundation\Response->setStatusCode(0)
+#1 /var/www/html/vendor/symfony/http-foundation/JsonResponse.php(44): Symfony\Component\HttpFoundation\Response->__construct('', 0, Array)
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php(31): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 0, Array)
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(83): Illuminate\Http\JsonResponse->__construct(Array, 0, Array, 0)
+#4 /var/www/html/vendor/structure/src/Base/Exception/Handler.php(71): Illuminate\Routing\ResponseFactory->json(Array, 0)
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Structure\Base\Exception\Handler->render(Object(Illuminate\Http\Requ in /var/www/html/vendor/symfony/http-foundation/Response.php on line 453
+[08-Jul-2018 14:24:31 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: The HTTP status code "1" is not valid. in /var/www/html/vendor/symfony/http-foundation/Response.php:453
+Stack trace:
+#0 /var/www/html/vendor/symfony/http-foundation/Response.php(202): Symfony\Component\HttpFoundation\Response->setStatusCode(1)
+#1 /var/www/html/vendor/symfony/http-foundation/JsonResponse.php(44): Symfony\Component\HttpFoundation\Response->__construct('', 1, Array)
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php(31): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 1, Array)
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(83): Illuminate\Http\JsonResponse->__construct(Array, 1, Array, 0)
+#4 /var/www/html/vendor/structure/src/Base/Exception/Handler.php(71): Illuminate\Routing\ResponseFactory->json(Array, 1)
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Structure\Base\Exception\Handler->render(Object(Illuminate\Http\Requ in /var/www/html/vendor/symfony/http-foundation/Response.php on line 453
+[08-Jul-2018 15:40:32 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: The HTTP status code "0" is not valid. in /var/www/html/vendor/symfony/http-foundation/Response.php:453
+Stack trace:
+#0 /var/www/html/vendor/symfony/http-foundation/Response.php(202): Symfony\Component\HttpFoundation\Response->setStatusCode(0)
+#1 /var/www/html/vendor/symfony/http-foundation/JsonResponse.php(44): Symfony\Component\HttpFoundation\Response->__construct('', 0, Array)
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php(31): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 0, Array)
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(83): Illuminate\Http\JsonResponse->__construct(Array, 0, Array, 0)
+#4 /var/www/html/vendor/structure/src/Base/Exception/Handler.php(71): Illuminate\Routing\ResponseFactory->json(Array, 0)
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Structure\Base\Exception\Handler->render(Object(Illuminate\Http\Requ in /var/www/html/vendor/symfony/http-foundation/Response.php on line 453
+[08-Jul-2018 15:40:32 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: The HTTP status code "1" is not valid. in /var/www/html/vendor/symfony/http-foundation/Response.php:453
+Stack trace:
+#0 /var/www/html/vendor/symfony/http-foundation/Response.php(202): Symfony\Component\HttpFoundation\Response->setStatusCode(1)
+#1 /var/www/html/vendor/symfony/http-foundation/JsonResponse.php(44): Symfony\Component\HttpFoundation\Response->__construct('', 1, Array)
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php(31): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 1, Array)
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(83): Illuminate\Http\JsonResponse->__construct(Array, 1, Array, 0)
+#4 /var/www/html/vendor/structure/src/Base/Exception/Handler.php(71): Illuminate\Routing\ResponseFactory->json(Array, 1)
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Structure\Base\Exception\Handler->render(Object(Illuminate\Http\Requ in /var/www/html/vendor/symfony/http-foundation/Response.php on line 453
+[08-Jul-2018 15:48:13 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: The HTTP status code "0" is not valid. in /var/www/html/vendor/symfony/http-foundation/Response.php:453
+Stack trace:
+#0 /var/www/html/vendor/symfony/http-foundation/Response.php(202): Symfony\Component\HttpFoundation\Response->setStatusCode(0)
+#1 /var/www/html/vendor/symfony/http-foundation/JsonResponse.php(44): Symfony\Component\HttpFoundation\Response->__construct('', 0, Array)
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php(31): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 0, Array)
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(83): Illuminate\Http\JsonResponse->__construct(Array, 0, Array, 0)
+#4 /var/www/html/vendor/structure/src/Base/Exception/Handler.php(71): Illuminate\Routing\ResponseFactory->json(Array, 0)
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Structure\Base\Exception\Handler->render(Object(Illuminate\Http\Requ in /var/www/html/vendor/symfony/http-foundation/Response.php on line 453
+[08-Jul-2018 15:48:13 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: The HTTP status code "1" is not valid. in /var/www/html/vendor/symfony/http-foundation/Response.php:453
+Stack trace:
+#0 /var/www/html/vendor/symfony/http-foundation/Response.php(202): Symfony\Component\HttpFoundation\Response->setStatusCode(1)
+#1 /var/www/html/vendor/symfony/http-foundation/JsonResponse.php(44): Symfony\Component\HttpFoundation\Response->__construct('', 1, Array)
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php(31): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 1, Array)
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(83): Illuminate\Http\JsonResponse->__construct(Array, 1, Array, 0)
+#4 /var/www/html/vendor/structure/src/Base/Exception/Handler.php(71): Illuminate\Routing\ResponseFactory->json(Array, 1)
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Structure\Base\Exception\Handler->render(Object(Illuminate\Http\Requ in /var/www/html/vendor/symfony/http-foundation/Response.php on line 453
+[08-Jul-2018 16:06:28 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: The HTTP status code "0" is not valid. in /var/www/html/vendor/symfony/http-foundation/Response.php:453
+Stack trace:
+#0 /var/www/html/vendor/symfony/http-foundation/Response.php(202): Symfony\Component\HttpFoundation\Response->setStatusCode(0)
+#1 /var/www/html/vendor/symfony/http-foundation/JsonResponse.php(44): Symfony\Component\HttpFoundation\Response->__construct('', 0, Array)
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php(31): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 0, Array)
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(83): Illuminate\Http\JsonResponse->__construct(Array, 0, Array, 0)
+#4 /var/www/html/vendor/structure/src/Base/Exception/Handler.php(71): Illuminate\Routing\ResponseFactory->json(Array, 0)
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Structure\Base\Exception\Handler->render(Object(Illuminate\Http\Requ in /var/www/html/vendor/symfony/http-foundation/Response.php on line 453
+[08-Jul-2018 16:06:28 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: The HTTP status code "1" is not valid. in /var/www/html/vendor/symfony/http-foundation/Response.php:453
+Stack trace:
+#0 /var/www/html/vendor/symfony/http-foundation/Response.php(202): Symfony\Component\HttpFoundation\Response->setStatusCode(1)
+#1 /var/www/html/vendor/symfony/http-foundation/JsonResponse.php(44): Symfony\Component\HttpFoundation\Response->__construct('', 1, Array)
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php(31): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 1, Array)
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(83): Illuminate\Http\JsonResponse->__construct(Array, 1, Array, 0)
+#4 /var/www/html/vendor/structure/src/Base/Exception/Handler.php(71): Illuminate\Routing\ResponseFactory->json(Array, 1)
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Structure\Base\Exception\Handler->render(Object(Illuminate\Http\Requ in /var/www/html/vendor/symfony/http-foundation/Response.php on line 453
+[08-Jul-2018 16:27:47 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: The HTTP status code "0" is not valid. in /var/www/html/vendor/symfony/http-foundation/Response.php:453
+Stack trace:
+#0 /var/www/html/vendor/symfony/http-foundation/Response.php(202): Symfony\Component\HttpFoundation\Response->setStatusCode(0)
+#1 /var/www/html/vendor/symfony/http-foundation/JsonResponse.php(44): Symfony\Component\HttpFoundation\Response->__construct('', 0, Array)
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php(31): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 0, Array)
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(83): Illuminate\Http\JsonResponse->__construct(Array, 0, Array, 0)
+#4 /var/www/html/vendor/structure/src/Base/Exception/Handler.php(71): Illuminate\Routing\ResponseFactory->json(Array, 0)
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Structure\Base\Exception\Handler->render(Object(Illuminate\Http\Requ in /var/www/html/vendor/symfony/http-foundation/Response.php on line 453
+[08-Jul-2018 16:27:47 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: The HTTP status code "1" is not valid. in /var/www/html/vendor/symfony/http-foundation/Response.php:453
+Stack trace:
+#0 /var/www/html/vendor/symfony/http-foundation/Response.php(202): Symfony\Component\HttpFoundation\Response->setStatusCode(1)
+#1 /var/www/html/vendor/symfony/http-foundation/JsonResponse.php(44): Symfony\Component\HttpFoundation\Response->__construct('', 1, Array)
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php(31): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 1, Array)
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(83): Illuminate\Http\JsonResponse->__construct(Array, 1, Array, 0)
+#4 /var/www/html/vendor/structure/src/Base/Exception/Handler.php(71): Illuminate\Routing\ResponseFactory->json(Array, 1)
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Structure\Base\Exception\Handler->render(Object(Illuminate\Http\Requ in /var/www/html/vendor/symfony/http-foundation/Response.php on line 453
+[08-Jul-2018 17:24:02 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: The HTTP status code "0" is not valid. in /var/www/html/vendor/symfony/http-foundation/Response.php:453
+Stack trace:
+#0 /var/www/html/vendor/symfony/http-foundation/Response.php(202): Symfony\Component\HttpFoundation\Response->setStatusCode(0)
+#1 /var/www/html/vendor/symfony/http-foundation/JsonResponse.php(44): Symfony\Component\HttpFoundation\Response->__construct('', 0, Array)
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php(31): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 0, Array)
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(83): Illuminate\Http\JsonResponse->__construct(Array, 0, Array, 0)
+#4 /var/www/html/vendor/structure/src/Base/Exception/Handler.php(71): Illuminate\Routing\ResponseFactory->json(Array, 0)
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Structure\Base\Exception\Handler->render(Object(Illuminate\Http\Requ in /var/www/html/vendor/symfony/http-foundation/Response.php on line 453
+[08-Jul-2018 17:24:02 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: The HTTP status code "1" is not valid. in /var/www/html/vendor/symfony/http-foundation/Response.php:453
+Stack trace:
+#0 /var/www/html/vendor/symfony/http-foundation/Response.php(202): Symfony\Component\HttpFoundation\Response->setStatusCode(1)
+#1 /var/www/html/vendor/symfony/http-foundation/JsonResponse.php(44): Symfony\Component\HttpFoundation\Response->__construct('', 1, Array)
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php(31): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 1, Array)
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(83): Illuminate\Http\JsonResponse->__construct(Array, 1, Array, 0)
+#4 /var/www/html/vendor/structure/src/Base/Exception/Handler.php(71): Illuminate\Routing\ResponseFactory->json(Array, 1)
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Structure\Base\Exception\Handler->render(Object(Illuminate\Http\Requ in /var/www/html/vendor/symfony/http-foundation/Response.php on line 453
+[08-Jul-2018 17:24:24 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: The HTTP status code "0" is not valid. in /var/www/html/vendor/symfony/http-foundation/Response.php:453
+Stack trace:
+#0 /var/www/html/vendor/symfony/http-foundation/Response.php(202): Symfony\Component\HttpFoundation\Response->setStatusCode(0)
+#1 /var/www/html/vendor/symfony/http-foundation/JsonResponse.php(44): Symfony\Component\HttpFoundation\Response->__construct('', 0, Array)
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php(31): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 0, Array)
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(83): Illuminate\Http\JsonResponse->__construct(Array, 0, Array, 0)
+#4 /var/www/html/vendor/structure/src/Base/Exception/Handler.php(71): Illuminate\Routing\ResponseFactory->json(Array, 0)
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Structure\Base\Exception\Handler->render(Object(Illuminate\Http\Requ in /var/www/html/vendor/symfony/http-foundation/Response.php on line 453
+[08-Jul-2018 17:24:24 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: The HTTP status code "1" is not valid. in /var/www/html/vendor/symfony/http-foundation/Response.php:453
+Stack trace:
+#0 /var/www/html/vendor/symfony/http-foundation/Response.php(202): Symfony\Component\HttpFoundation\Response->setStatusCode(1)
+#1 /var/www/html/vendor/symfony/http-foundation/JsonResponse.php(44): Symfony\Component\HttpFoundation\Response->__construct('', 1, Array)
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php(31): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 1, Array)
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(83): Illuminate\Http\JsonResponse->__construct(Array, 1, Array, 0)
+#4 /var/www/html/vendor/structure/src/Base/Exception/Handler.php(71): Illuminate\Routing\ResponseFactory->json(Array, 1)
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Structure\Base\Exception\Handler->render(Object(Illuminate\Http\Requ in /var/www/html/vendor/symfony/http-foundation/Response.php on line 453

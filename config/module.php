@@ -2,6 +2,6 @@
 
 return [
     "list" => [
-        \App\Module\Search\Module::class
+        \App\Module\Geosearch\Module::class
     ]
 ];
