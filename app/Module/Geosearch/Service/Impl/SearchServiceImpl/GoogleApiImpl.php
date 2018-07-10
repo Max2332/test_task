@@ -65,7 +65,7 @@ class GoogleApiImpl implements ApiSearchService
         $predictions = $resultApi->get('predictions')->take(6);
         $this->geoSearchService->save(new GeoSearchEntity([
             'fragment' => $fragment,
-            'response' => $predictions
+            'response' => json_encode($predictions, JSON_UNESCAPED_UNICODE)
         ]));
 
         return $predictions;
